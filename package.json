@@ -22,5 +22,11 @@
   "homepage": "https://github.com/suprimek0/frontend-project-44#readme",
   "dependencies": {
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@stylistic/eslint-plugin": "^5.5.0",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0"
   }
 }
