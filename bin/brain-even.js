@@ -4,7 +4,7 @@ import readlineSync from 'readline-sync'
 import { greetUser } from '../src/cli.js'
 
 const isEven = (num) => num % 2 === 0
-const playGame = () => {
+const playGame = (name) => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".')
 
   for (let i = 0; i < 3; i += 1) {
@@ -19,16 +19,14 @@ const playGame = () => {
     }
     else {
       console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`)
-      console.log(`Let's try again, ${global.userName}!`)
+      console.log(`Let's try again, ${name}!`)
       return
     }
   }
 
-  console.log(`Congratulations, ${global.userName}!`)
+  console.log(`Congratulations, ${name}!`)
 }
 
 // Основной поток выполнения
-greetUser()
-global.userName = readlineSync.question('May I have your name? ')
-console.log(`Hello, ${global.userName}!`)
-playGame()
+const name = greetUser() // Вызывает приветсвие и запрашивает имя (из cli.js)
+playGame(name)
