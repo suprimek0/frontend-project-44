@@ -11,3 +11,6 @@
 
 > Полная запись сеанса: https://asciinema.org/connect/70bdf4f3-40e7-41ce-a5ac-54be40c42e17 
 
+![Демонстрация игры Brain Gcd] (https://asciinema.org/a/RZkFyBaUtqgHxJGBhqU5MfaMd)
+
+> Полная запись сеанса: https://asciinema.org/connect/70bdf4f3-40e7-41ce-a5ac-54be40c42e17
