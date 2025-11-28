@@ -3,7 +3,7 @@
 import readlineSync from 'readline-sync'
 import { greetUser } from '../src/cli.js'
 
-const isEven = (num) => num % 2 === 0
+const isEven = num => num % 2 === 0
 const playGame = (name) => {
   console.log('Answer "yes" if the number is even, otherwise answer "no".')
 
