@@ -24,12 +24,15 @@
 ## Установка
 
 1. Клонируйте репозиторий (если требуется):
-  ```bash
-   git clone https://github.com/suprimek0/frontend-project-44.git
+```bash
+git clone https://github.com/suprimek0/frontend-project-44.git
+```
 
 2. установите пакет глобально:
-  ```bash
-  npm install -g .
+```bash
+npm install -g .
+```
+
 3. Запуск игр
 После установки доступны команды:
 - brain-even
@@ -38,9 +41,10 @@
 - brain-progression
 - brain-prime
   
-  Пример запуска:
-    ```bash
-    brain-prime
+Пример запуска:
+```bash
+brain-prime
+```
 
 ## Игровой процесс
 Каждая игра:
