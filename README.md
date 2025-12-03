@@ -17,10 +17,12 @@
 - **Brain Prime** — определение, является ли число простым.
 
 ## Требования 
+
 - Node.js ≥ 18.0.0
 - npm ≥ 9.0.0
 
 ## Установка
+
 1. Клонируйте репозиторий (если требуется):
   ```bash
    git clone https://github.com/suprimek0/frontend-project-44.git
@@ -34,10 +36,10 @@
 - brain-gcd
 - brain-progression
 - brain-prime
-
-Пример запуска:
-  ```bash
-  brain-prime
+  
+  Пример запуска:
+    ```bash
+    brain-prime
 
 ## Игровой процесс
 Каждая игра:
