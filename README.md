@@ -26,6 +26,7 @@
 1. Клонируйте репозиторий (если требуется):
   ```bash
    git clone https://github.com/suprimek0/frontend-project-44.git
+
 2. установите пакет глобально:
   ```bash
   npm install -g .
